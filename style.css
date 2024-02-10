@@ -1,0 +1,312 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.interface {
+
+    height: 100vh;
+  
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    scroll-snap-align: start;
+
+}
+
+
+.page1 {
+    background: radial-gradient(circle at 50% 50%, #3b9dc0 20%, #08799b);
+    display: flex;
+    width: 100%;
+
+}
+
+.box1 {
+    width: 40vw;
+    height: 100vh;
+    background: #d2d9dc;
+    display: flex;
+    justify-content: start;
+    align-items:end;
+}
+
+.boximgcell{
+
+    width: 520px;
+}
+
+.boxnavcell{
+
+    width: 430px;
+    height: 430px;
+    top: 30px;
+    position: relative;
+    right: 483px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+
+}
+
+#kpi{
+    width: 100px;
+    margin-top: 20px;
+}
+.free{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   height: 120px;
+   
+}
+
+.conteudo{
+    display: grid;
+    gap: 4px;
+    
+    text-align: center;
+}
+
+.opcoes{
+    color: #2110dc;
+    background: #d3cfd8;
+    padding: 6px;
+}
+
+#free{
+    color: #ffffff;
+    background: #2110dc;
+}
+
+.text-logo{
+    color: #444;
+    text-align: center;
+}
+
+.box2 {
+    width: 60vw;
+    height: 100vh;
+}
+
+header {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.navheader {
+
+    margin-right: 40px;
+}
+
+.boxlink {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 45px;
+    height: 100%;
+    padding: 8px;
+}
+
+a {
+    color: #11313d;
+    font-size: 22px;
+}
+
+.back {
+    background: #d2d9dc;
+    height: 100px;
+    width: 80px;
+    font-weight: 500;
+}
+
+a:hover {
+    border-bottom: solid 1px #11313d;
+}
+
+
+
+.texapresentacao {
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textap {
+    display: none;
+}
+
+.boxspace {
+    flex: 0.2;
+}
+
+.box-principal {
+
+    width: 100%;
+    display: flex;
+    height: 80%;
+
+}
+
+.box-info {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box-full {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+    height: 40%;
+
+}
+
+.box-subtitle {
+    color: #11313d;
+}
+
+span {
+    font-size: 60px;
+    color: #ffffff;
+    text-align: end;
+}
+
+.box-subtitle {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 18px;
+
+
+}
+
+.descricao-title {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.box-button {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button-1 {
+    background: #11313d;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#button-2 {
+    background: transparent;
+    border: solid #11313d 1px;
+    color: #11313d;
+    font-weight: 600;
+}
+
+h1 {
+
+    border: solid white;
+}
+
+.disp {
+    display: none;
+}
+
+.bar {
+    background: wheat;
+    height: 3px;
+    width: 25px;
+    margin-top: 5px;
+    display: none;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+.ativo {
+    display: flex;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  150px 1fr 1fr;
+    color: black;
+}
+
+.box-recursos{
+
+    grid-column: 1/5;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 10px;
+}
+
+.espacoPlv{
+    height: 5px;
+    border: solid #2110dc;
+    width: 65px;
+    margin: 5px;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+i{
+    color:  rgb(52, 51, 110);
+    border: solid 2px rgb(52, 51, 110);
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 35px;
+}
+
+
+
+.card-recurso{
+ 
+    height: 100%;
+    padding: 10px;
+}
